@@ -13,7 +13,7 @@ function setStatus(message) {
 function refreshBalance() {
     recordId = document.getElementById("id_patrimonio").value;
     recordDescription = document.getElementById("description").value;
-    setStatus("Registro da Transação<br /><br />ID Patrimônio: " + recordId+"<br /> Descrição do repasse: "+ recordDescription);
+    setStatus("<br /><br /><h3>Registro de Transações</h3>ID Patrimônio: " + recordId+"<br /> Descrição do repasse: "+ recordDescription);
     writeLog();
 };
 
