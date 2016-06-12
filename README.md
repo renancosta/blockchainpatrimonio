@@ -7,27 +7,27 @@ Para executar o projeto é necessário estar com o seguinte ambiente especificad
 
 ###Ambiente necessário para execução do projeto
 
-NodeJS
+####NodeJS
   sudo apt-get install nodejs
   sudo apt-get install nodejs-legacy
 
-Ethereum
+####Ethereum
   sudo apt-get install software-properties-common
   sudo add-apt-repository -y ppa:ethereum/ethereum
   sudo add-apt-repository -y ppa:ethereum/ethereum-dev
   sudo apt-get update
   sudo apt-get install ethereum
 
-NPM
+####NPM
   sudo apt-get install npm
 
-GIT
+####GIT
   sudo apt-get install git (Necessário para a próxima ferramenta)
 
-Truffle  
+####Truffle  
   sudo npm install -g truffle
 
-Testrpc  
+####Testrpc  
   sudo npm install -g ethereumjs-testrpc 
 
 ###Comandos que poderá auxiliar caso apareça problemas
